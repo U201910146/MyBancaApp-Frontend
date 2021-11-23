@@ -1,0 +1,111 @@
+<!Doctype Html>
+<Html>
+  <Head>
+    <link rel="icon" type="image/png" href="img/UPC.png">
+      <Title>
+        Home
+      </Title>
+        <style type=text/css>
+body
+{
+height: 125vh;
+margin-top: 80px;
+padding: 30px;
+background-size: cover;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+header {
+background-color: black;
+position: fixed;
+left: 0;
+right: 0;
+top: 5px;
+height: 50px;
+display: flex;
+align-items: center;
+box-shadow: 0 0 25px 0 black;
+}
+header * {
+display: inline;
+}
+header li {
+margin: 50px;
+}
+header li a {
+color: blue;
+text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 90%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: bottom;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+      </style>
+  </Head>
+<Body>
+  <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="Inicio1.html">Finanzas Inicio </a>
+          </li>
+          <li>
+            <a href="Login.html"> Inicio de Sesion </a>
+          </li>
+          <li>
+            <a href="Register.html"> Registro </a>
+          </li>
+          <li>
+            <a href="Config.html"
+              target="popup"
+              onclick="window.open('Config.html','popup','width=600,height=600'); return false;">
+              Configuracion de Tasa de Interes
+            </a>
+        </ul>
+      </nav>
+    </header>
+    <p> Mi Cartera</p>
+        <a href="AniadirCartera.html"
+        target="popup"
+        onclick="window.open('AniadirCartera.html','popup','width=600,height=600'); return false;">
+        Aniadir Cartera
+    </a>
+
+<table>
+  <tr>
+    <th>Recibo</th>
+    <th>Moneda: Sol Peruano</th>
+    <th>Moneda: Dolar Americano</th>
+    <th>TCEA</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+</Body>
+</Html>
